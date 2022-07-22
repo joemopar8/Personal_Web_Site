@@ -1,0 +1,53 @@
+
+body {
+  background-color: lightcyan;
+}
+
+h1 {
+  color: #66bfbf;
+}
+
+h2 {
+  color: sandybrown;
+}
+
+h3 {
+  color: brown;
+}
+
+h4 {
+  color: mediumseagreen;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: silver;
+  border-width: 7px;
+  width: 10%;
+}
+
+a {
+  color: green;
+}
+
+.slidein {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: .01%;
+    width: 100%;
+  }
+}
+
+img:hover {
+  background-color: gold;
+}
